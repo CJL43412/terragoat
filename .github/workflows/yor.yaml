@@ -7,9 +7,9 @@ on:
 jobs:
   yor:
   
-   permissions:
+    permissions:
       contents: write
-      
+  
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
